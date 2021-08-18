@@ -7,6 +7,8 @@ public class RectangleTest {
     @BeforeEach
     public void createObject(){rectangle = new Rectangle();}
 
+    // Area of Rectangle
+
     @Test
     public void toGetAreaFortyFiveHavingDimensionsFiveAndNine(){assertEquals(45, rectangle.area(5, 9));}
 
@@ -18,5 +20,10 @@ public class RectangleTest {
 
     @Test
     public void toGetAreaZeroHavingDimensionsMinusFiveAndFive(){assertEquals(0, rectangle.area(-5, 5));}
+
+    // Perimeter of Rectangle
+
+    @Test
+    public void toGetPerimeterTwentyHavingDimensionsFiveAndFive(){assertEquals(20, rectangle.perimeter(5, 5));}
 
 }
