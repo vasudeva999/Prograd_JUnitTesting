@@ -12,4 +12,7 @@ public class RectangleTest {
 
     @Test
     public void toGetAreaZeroHavingDimensionsFiveAndZero(){assertEquals(0, rectangle.area(5, 0));}
+
+    @Test
+    public void toGetAreaZeroHavingDimensionsMinusFiveAndMinusFive(){assertEquals(0, rectangle.area(-5, -5));}
 }
