@@ -26,4 +26,6 @@ public class RectangleTest {
     @Test
     public void toGetPerimeterTwentyHavingDimensionsFiveAndFive(){assertEquals(20, rectangle.perimeter(5, 5));}
 
+    @Test
+    public void toGetPerimeterZeroHavingDimensionsFiveAndZero(){assertEquals(0, rectangle.perimeter(5, 0));}
 }
