@@ -1,4 +1,4 @@
 public class Rectangle {
-    public int area(int length, int breath) {return (length>0 && breath>0)?length*breath:0;}
-    public int perimeter(int length, int breath) {return (length>0 && breath>0)?2*(length+breath):0;}
+    public int area(int length, int breadth) {return (length>0 && breadth>0)?length*breadth:0;}
+    public int perimeter(int length, int breadth) {return (length>0 && breadth>0)?2*(length+breadth):0;}
 }
